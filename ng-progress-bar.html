@@ -1,0 +1,16 @@
+
+<div class="progress-outer"
+     [style.padding]="outerPadding"
+     [style.border-radius]="radius"
+     [style.background-color]="outerBg"
+     [style.color]="color"
+>
+  <div class="progress-inner"
+       [style.width]="value + '%'"
+       [style.padding]="innerPadding"
+       [style.border-radius]="radius"
+       [style.background-color]="innerBg"
+  >
+    <span *ngIf="hide == 'false'">{{ value }}{{ symbol }}</span>
+  </div>
+</div>
