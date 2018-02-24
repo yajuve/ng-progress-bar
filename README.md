@@ -1,6 +1,9 @@
 # ng-progress-bar
 
 # Preview
+ Screenshot |
+------------------------- |
+![](https://github.com/yajuve/ng-progress-bar/blob/master/screenshot/progress-bar.png)  |
 
 # How to use
 
